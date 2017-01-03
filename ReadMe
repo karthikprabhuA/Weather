@@ -1,0 +1,23 @@
+Requirements
+1.    Create a native-app based application to server as a basic weather app.
+2.    Search Screen:
+a.    Allow customer to enter a US city
+b.    Call the openweathermap.org API and display the information you think a user would be interested in seeing. Be sure to have the app download and display a weather icon.
+3.    Auto load the last city searched upon app launch.
+Frameworks:
+Looking at your application which components are generic and could be extracted and packaged into reusable component.
+
+Technical Notes:-
+
+Development Tools - Xcode 8.2.1
+iOS SDK Used - 10.2
+Programming Language - Objective C
+Third party API - http://openweathermap.org/
+
+Reference :-
+http://openweathermap.org/current
+http://openweathermap.org/weather-conditions
+http://openweathermap.org/city/5037649
+
+For UnitTestCase :
+Should enable the project setting macro UINITTEST=1 to run the unit test

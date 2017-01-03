@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  Weather
+
+  Created by Alagu Karthik Prabhu on 31/12/16.
+  Copyright © 2016 kp Alagu. All rights reserved.
+*/
+Empty_City_Name_Alert = "Enter US City to get current weather!";
