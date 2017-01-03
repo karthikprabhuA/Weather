@@ -23,7 +23,7 @@
 #if UINITTEST
     errorDomainName = @"UNITTEST";
 #else
-    NSString* errorDomainName = NSBundle.mainBundle.infoDictionary[@"CFBundleDisplayName"];
+    errorDomainName = NSBundle.mainBundle.infoDictionary[@"CFBundleDisplayName"];
     if(!errorDomainName)
          errorDomainName = @"YourApplication";
 #endif

@@ -132,11 +132,17 @@
         NSDateFormatter *format = [[NSDateFormatter alloc] init];
         [format setDateFormat:@"MMMM dd, yyyy (EEEE) HH:mm:ss z"];
         _weatherDateTimeLabel.text = [format stringFromDate:lastUpdateDate];
+//        NSString* enteredCityName = [_cityNameTextField.text trimmedWhiteSpaceText];
+//        if([enteredCityName caseInsensitiveCompare:model.name] != NSOrderedSame)
+//        {
+//            [self showAlertMessage:@"Provide a valid US city name to get the current weather"];
+//        }
     }
     else
     {
         [self showAlertMessage:model.message];
     }
+
 }
 
 #pragma mark ActivityIndicator

@@ -479,7 +479,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"UINITTEST=1",
+					"UINITTEST=0",
 				);
 				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
